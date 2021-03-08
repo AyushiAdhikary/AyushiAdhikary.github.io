@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> FORM </title>
+</head>
+<body style="background-color:powderblue">
+<h1><MARQUEE><p style="font-size":2;"font-family":Elephant;"text-align":centre><ins>Scholarship Application Form</ins></MARQUEE></h1><br><br><br>
+<form action="action.php" method="post" target="_blank" autocomplete="on" novalidate>
+ <b> <label for="fname">First name:</label></b><br>
+  <input type="text" id="fname" name="fname"required><br>
+<b><label for="mname">Middle name:</label></b><br>
+<input type="text" id="mname" name="mname"><br>
+ <b> <label for="lname">Last name:</label></b><br>
+ <input type="text" id="lname" name="lname"><br>
+<b><label for="eid">Email Id:</label></b><br>
+<input type="text" id="eid" name="eid"><br><br>
+<b><label for="dob">Date Of Birth:</label></b><br>
+  <b><label for="datemin">Enter a date after 2003-01-01:</label></b>
+  <input type="date" id="datemin" name="datemin" min="2003-01-02">
+<br>
+<b><label for="phone">Enter your phone number:</label></b>
+  <input type="tel" id="phone" name="phone" pattern="[6-9]{1}[0-9]{9}">
+
+<br><br>
+<b><label for="father'sname">Father's name:</label></b><br>
+<b><label for="fname">First name:</label></b><br>
+  <input type="text" id="fname" name="fname"><br>
+<b><label for="mname">Middle name:</label></b><br>
+<input type="text" id="mname" name="mname"><br>
+  <b><label for="lname">Last name:</label></b><br>
+ <input type="text" id="lname" name="lname"><br>
+<fieldset>
+    <b><legend>Education:</legend></b>
+   <b> <label for="Cname">College name:</label><b><br>
+    <input type="text" id="cname" name="Cname"</label><br>
+    <b><label for="Cgpa">Cgpa:</label><b><br>
+    <input type="number" id="cgpa" name="cgpa" pattern="[0-10]"><br><br>
+<b><label for="pincode">Pincode:</label></b><br>
+    <input type="text" id="pincode" pattern="560[0-9]{3}"><br>
+  </fieldset> <br>
+ <b><label for="fincome">Family Income:</label><b> <br>
+<input type="text" id="fincome" name="fincome"><br>
+<select id="fincome" name="family income" size="3" multiple>
+  <option value="110000">110000</option>
+  <option value="120000">120000</option>
+  <option value="130000">130000</option>
+  <option value="140000">140000</option>
+  <option value="150000">150000</option>
+  <option value="160000">160000</option>
+  <option value="170000">170000</option>
+  <option value="180000">180000</option>
+  <option value="190000">190000</option>
+  <option value="200000">200000</option>
+ <option value="210000">210000</option>
+  <option value="220000">220000</option>
+  <option value="230000">230000</option>
+  <option value="240000">240000</option>
+  <option value="250000">250000</option>
+  <option value="260000">260000</option>
+  <option value="270000" selected>270000</option>
+  <option value="280000">280000</option>
+  <option value="290000">290000</option>
+  <option value="300000">300000</option>
+  
+</select> <br>
+<b><label for="gender">Gender:</label></b><br>
+<input type="radio" id="male" name="gender" value="male">
+  <b><label for="male">Male</label></b><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <b><label for="female">Female</label></b><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <b><label for="other">Other</label></b>
+<br>
+<b><label for="aadhar">Upload Aadhar:</label></b>
+  <input type="file" id="aadhar" name="aadhar"><br><br>
+
+<b><label for="address">Address:</label></b><br>
+
+<textarea name="message" rows="10" cols="30">
+</textarea> <br>
+
+<b><label for="age">Age(min age 18):</label></b>
+  <input type="number" id="age" name="age" min="18"<br><br>
+
+ 
+ <b> <label for="pwd">Create Password:</label></b><br>
+  <input type="password" id="pwd" name="pwd">
+<br>
+<input type="submit" value="Confirm">
+ <input type="reset" value="Clear"> <br>
+</form>
+</body>
+</html>
+
+
+
+
